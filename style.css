@@ -52,13 +52,13 @@ html ::-webkit-scrollbar-thumb{
 }
 .menu img
 {
-    width: 145px;
+    width: 165px;
     border-radius: 100px;
     border: 5px solid rgb(252, 32, 16);
 }
 .menu h3{
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: 10px;
 }
@@ -72,9 +72,10 @@ html ::-webkit-scrollbar-thumb{
     color: white;
     display: block;
     border-radius: 5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom:1.5rem;
-    padding: 9px 125px;
+    padding: 7px 125px;
+    font-weight: 400;
     
 }
 .navbar ul
@@ -141,6 +142,7 @@ html ::-webkit-scrollbar-thumb{
     padding: 8px 18px;
     border-radius: 50px;
     cursor: pointer;
+    margin-top: 10px;
 }
 .btn-span:hover
 {
@@ -151,7 +153,7 @@ html ::-webkit-scrollbar-thumb{
     font-size: 35px;
     font-weight: 700;
     color: #fff;
-    border-bottom:  2px solid rgb(184, 184, 184);
+    /* border-bottom:  2px solid rgb(184, 184, 184); */
     padding-bottom: 4px;
 
 }
@@ -175,11 +177,14 @@ html ::-webkit-scrollbar-thumb{
     text-align: left;
     flex-flow: column;
     display: grid;
-    padding: 10rem;
+    padding: 3rem;
     color: #fff;
     margin: auto;
     font-size: 18px;
     /* border-right:  2px solid rgb(184, 184, 184); */
+}
+.about-us a{
+    text-decoration: none;
 }
 .btn-span1
 {
@@ -187,6 +192,7 @@ html ::-webkit-scrollbar-thumb{
     padding: 6px 20px;
     border-radius: 50px;
     cursor: pointer;
+    color: #fff;
    
 }
 .btn-span1:hover
@@ -198,10 +204,15 @@ html ::-webkit-scrollbar-thumb{
     margin-top: 15px;
 }
 .small-card p{
-    background-color: #1d1d1d;
+    background-color: #000000;
     padding: 23px;
     text-align: center;
     font-weight: bold;
+}
+.small-card p
+{
+    box-shadow: 0px 00px 20px var(--yellow);
+    border-radius: 15px;
 }
 .row
 {
@@ -222,17 +233,53 @@ html ::-webkit-scrollbar-thumb{
     color: #fff;
     margin: auto;
     font-size: 18px;
+    border-radius: 1.3rem !important;
     /* border-right:  2px solid rgb(184, 184, 184); */
 }
 .btn-span2
 {
     background-color: #000000;
+    
     /* padding: 6px 12px; */
     border-radius: 50px;
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 1.5rem !important;
   }
+  .box-shad:hover
+{
+    box-shadow: 0px 00px 20px white;
+    color: #fff;
+}
+.box-shad
+{
+    border-radius: 20px;
+}
+.box-shad1
+{
+    box-shadow: 0px 00px 20px var(--yellow);
+}
+  .crd-bdy1
+  {
+    background-color: #000000 !important;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-flow: column;
+    display: grid;
+    padding: 5rem;
+    color: #fff;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 1.3rem !important;
+    box-shadow: 0px 00px 20px var(--yellow);
+  }
+ .crd2
+ {
+    background-color: #1d1d1d;
+    color: var(--yellow);
+    /* color: aqua; */
+ }
 .card-body img
 {
     background:var(--yellow);
@@ -286,5 +333,59 @@ html ::-webkit-scrollbar-thumb{
 {
     background-color: #1d1d1d;
     height: 100vh;
+    padding-top: 7rem !important;
     
+}
+.pxx {
+    padding-right: 13rem !important;
+    padding-left: 13rem !important;
+  }
+
+.skills-tech
+{
+    background-color: #1d1d1d;
+    padding: 10px 10px;
+    
+border: 1px solid #fff;
+border-radius: 13px;
+width: 159px !important;
+margin: 0px 20px 20px 0px;
+}
+.hriz
+{
+    border: 1px solid #fff;
+    width: 350px;
+   
+}
+.hriz1
+{
+    justify-content: center;
+    display: flex;
+}
+.hr-clr
+{
+    /* border: 2px solid var(--yellow); */
+    /* border-color: var(--yellow); */
+    color: var(--yellow);
+    opacity: 1.25;
+}
+.beaty
+{
+    border-top: 1px solid var(--yellow);
+border-right: 1px solid var(--yellow);
+}
+.beaty1
+{
+    border-bottom: 1px solid var(--yellow);
+    border-left: 1px solid var(--yellow);
+}
+.box-shady
+{
+    box-shadow: 0px 00px 20px var(--yellow);
+    /* color: var(--yellow); */
+    background-color: #000000 !important;
+}
+.box-shady
+{
+    color: #fff !important;
 }
